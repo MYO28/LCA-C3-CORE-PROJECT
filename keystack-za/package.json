@@ -1,0 +1,17 @@
+{
+  "name": "keystack-za",
+  "version": "1.1.0",
+  "description": "Student full-stack e-commerce capstone for a South African custom mechanical keyboard store.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}

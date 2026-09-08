@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shop | Keystack ZA</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/">KEY<span>STACK</span> <small>ZA</small></a
+        ><button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
+        <nav id="nav-links" class="nav-links"></nav>
+      </div>
+    </header>
+    <main class="page">
+      <div class="container">
+        <div class="page-heading reveal">
+          <div class="eyebrow">The collection</div>
+          <h1>Shop keyboard & desk gear</h1>
+          <p>Start small, build over time, and keep your setup yours.</p>
+        </div>
+        <div class="toolbar reveal reveal-delay-1">
+          <input id="search" class="field" placeholder="Search products..." aria-label="Search products" /><select
+            id="category"
+            class="field"
+            aria-label="Filter by category"
+          >
+            <option value="">All categories</option></select
+          ><button id="search-btn" class="btn accent">Search</button>
+        </div>
+        <div id="shop-grid" class="grid products"></div>
+      </div>
+    </main>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
